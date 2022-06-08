@@ -1,4 +1,4 @@
-import { borderRadius } from '@mui/system'
+
 import React from 'react'
 import Carousel from 'react-material-ui-carousel'
 
@@ -27,8 +27,8 @@ const BAnner = () => {
                 borderRadius:0,
                 marginTop:-22,
                 height:"104px"
+            }
         }
-    }
     }
     >
         {data.map((img,ind)=>{

@@ -4,8 +4,8 @@ import SearchIcon from '@mui/icons-material/Search'
 import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Avatar from '@mui/material/Avatar';
-import { Link, NavLink } from 'react-router-dom';
-import Signin from '../signup/Signin';
+import { NavLink } from 'react-router-dom';
+//import Signin from '../signup/Signin';
 
 
 

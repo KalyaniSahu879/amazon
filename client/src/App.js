@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer';
 import Signin from './components/signup/Signin';
 import Signup from './components/signup/Signup';
 import {Routes , Route} from 'react-router-dom'
+import Cart from './components/cart/Cart';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path={"/"} element={<Maincomp/>} />
         <Route path={"/login"} element={<Signin/>} />
         <Route path={"/register"} element={<Signup/>} />
+        <Route path={"/getproductsone/:id"} element={<Cart/>} />
       </Routes>
       {/* <Maincomp/> */}
       <Footer/>
